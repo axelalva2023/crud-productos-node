@@ -9,7 +9,7 @@ const form = document.getElementById("formulario")
 //Creamos las funciones:
 
 function renderCards() {
-    fetch("http://localhost:3000/productos").then((response) => response.json()).then((data) => {
+    fetch("https://crud-productos-node.onrender.com/productos").then((response) => response.json()).then((data) => {
         caja.innerHTML = ""
         data.map((el) => {
             caja.innerHTML += `<div>
@@ -24,7 +24,7 @@ function renderCards() {
 }
 
 function eliminarCards(id) {
-     fetch(`http://localhost:3000/productos/${parseInt(id)}`, {
+     fetch(`https://crud-productos-node.onrender.com/productos/${parseInt(id)}`, {
         method: "DELETE"
      }).then(() => renderCards())
 }
@@ -39,7 +39,7 @@ form.addEventListener("submit", (e) => {
         imagen: imagen.value
     }
 
-    fetch(`http://localhost:3000/productos`, {
+    fetch(`https://crud-productos-node.onrender.com/productos`, {
         method: "POST",
         headers: {"Content-Type": "application/json"},
         body: JSON.stringify(producto)
