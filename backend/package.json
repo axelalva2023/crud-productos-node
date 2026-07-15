@@ -1,0 +1,24 @@
+{
+  "name": "prueba-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/main.js",
+    "fs": "node ./src/fs.js",
+    "dev": "node --watch ./src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-handlebars": "^9.0.1",
+    "mongoose": "^9.7.3",
+    "mongoose-paginate-v2": "^1.9.5",
+    "multer": "^2.2.0",
+    "socket.io": "^4.8.3"
+  }
+}
