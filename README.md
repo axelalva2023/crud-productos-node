@@ -9,5 +9,6 @@
 * Se conecto la web con Github pages
 ## Puntos por mejorar:
 * Conexión con una BBDD Mongo o SQL
+* Responsive 
 ### Link a la pagina:
 [Sitio-web](https://axelalva2023.github.io/crud-productos-node/)
