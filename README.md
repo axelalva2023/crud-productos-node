@@ -1,4 +1,4 @@
-# Proyecto agregar un producto 
+# Proyecto agregar un producto 🌐
 ## Funciones principales:
 * Persistencia de datos con node
 * CRUD completo a través de una API
